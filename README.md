@@ -416,13 +416,7 @@ $$\lim_{x \to a} f(x) = L \iff \lim_{x \to a-} f(x) = L \text{ и } \lim_{x \to 
 ### Пример
 
 Рассмотрим функцию $f(x)$, определенную следующим образом:
-$$
-f(x) = \begin{cases} 
-2x, & \text{если } x < 1 \\
-3, & \text{если } x = 1 \\
-x + 1, & \text{если } x > 1 
-\end{cases}
-$$
+$$f(x) = \begin{cases} 2x, & \text{если } x < 1 \\ 3, & \text{если } x = 1 \\ x + 1, & \text{если } x > 1 \end{cases}$$
 
 Для точки $x = 1$:
 - Левосторонний предел: $\lim_{x \to 1-} f(x) = \lim_{x \to 1-} 2x = 2$
